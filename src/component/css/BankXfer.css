@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&display=swap');
+
+
+.hero-container {
+    margin: 0 auto;
+    max-width: 52rem;
+    height: 100vh;
+    padding-top: 6px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+    overflow: hidden;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.main-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-inline: auto;
+    max-width: 26rem;
+    padding-inline: 1.25rem;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+.graphic {
+    border: 5.1rem solid rgba(0, 120, 229, .15);
+    border-radius: 50%;
+    height: 20rem;
+    left: 0rem;
+    position: absolute;
+    top: 0rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 20rem;
+
+}
+
+.logo {
+    margin-bottom: 2rem;
+    margin-inline: auto;
+    max-height: 11.25rem;
+    max-width: 25rem;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 1rem;
+}
+
+.primary-1 {
+    background-color: #064278;
+    padding: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+
+
+}
+
+.primary-2 {
+    background-color: #064278;
+    padding: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.terms-service {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+   
+    /* font-weight: 600; */
+    margin-left: 0.5rem;
+    
+}
+
+.terms-service a {
+    text-decoration: none;
+    color: #7575e2;
+    
+}
+
+
+/* phoneNumberAuthenticate */
+.main-container-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-inline: auto;
+    max-width: 36rem;
+    padding-inline: 1.25rem;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.btn label {
+    font-size: 0.9rem;
+    font-weight: 800;
+    font-family: 'Inter Tight', sans-serif;
+    
+}
+
+.input-btn {
+    display: flex;
+    border: 1px solid #e6e6e6;
+    width: 25rem;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    margin-top: 0.8rem;
+}
+
+.input-btn input {
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #f8f9fa;
+    color: black;
+
+
+}
+
+.continue {
+    width: 100%;
+    background-color: #064278;
+    padding: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.img {
+    background-image: url('https://png.pngtree.com/png-clipart/20190122/ourmid/pngtree-american-flag-elements-png-image_447902.jpg');
+    height: 11px;
+    width: 16px;
+    z-index: 999;
+
+}
+.terms-service-1{
+   
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+   
+    /* font-weight: 600; */
+    margin-left: 0.5rem;
+    
+}
+.terms-service-1 a {
+    text-decoration: none;
+    color: #7575e2;
+    
+}
